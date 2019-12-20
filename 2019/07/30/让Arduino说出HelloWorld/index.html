@@ -5,17 +5,17 @@
   
 
   
-  <title>Hello World | Hexo</title>
+  <title>让Arduino说出HelloWorld | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="Hello World！首先先来练习一个不需要其他辅助元件，只需要一块Arduino 和一根下载线的简单实验，让我们的Arduino 说出“Hello World！”，这是一个让Arduino 和PC 机通信的实验，这也是一个入门试验，希望可以带领大家进入Arduino 的世界。 实验用到的电子原件，及电子模块：1.Arduino板 1个2.USB 数据线 我们按照上面所讲的将Arduino 的驱">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2019/12/20/hello-world/index.html">
+<meta property="og:title" content="让Arduino说出HelloWorld">
+<meta property="og:url" content="http://yoursite.com/2019/07/30/%E8%AE%A9Arduino%E8%AF%B4%E5%87%BAHelloWorld/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="Hello World！首先先来练习一个不需要其他辅助元件，只需要一块Arduino 和一根下载线的简单实验，让我们的Arduino 说出“Hello World！”，这是一个让Arduino 和PC 机通信的实验，这也是一个入门试验，希望可以带领大家进入Arduino 的世界。 实验用到的电子原件，及电子模块：1.Arduino板 1个2.USB 数据线 我们按照上面所讲的将Arduino 的驱">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2019-12-20T01:03:25.945Z">
-<meta property="article:modified_time" content="2019-12-20T01:03:25.945Z">
+<meta property="article:published_time" content="2019-07-30T09:11:48.000Z">
+<meta property="article:modified_time" content="2019-07-30T09:17:18.309Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -66,12 +66,16 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-让Arduino说出HelloWorld" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2019/12/20/hello-world/" class="article-date">
-  <time datetime="2019-12-20T01:03:25.945Z" itemprop="datePublished">2019-12-20</time>
+    <a href="/2019/07/30/%E8%AE%A9Arduino%E8%AF%B4%E5%87%BAHelloWorld/" class="article-date">
+  <time datetime="2019-07-30T09:11:48.000Z" itemprop="datePublished">2019-07-30</time>
 </a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Arduino/">Arduino</a>
+  </div>
+
   </div>
   <div class="article-inner">
     
@@ -80,7 +84,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      Hello World
+      让Arduino说出HelloWorld
     </h1>
   
 
@@ -88,24 +92,17 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+        <h3 id="Hello-World！"><a href="#Hello-World！" class="headerlink" title="Hello World！"></a>Hello World！</h3><p>首先先来练习一个不需要其他辅助元件，只需要一块Arduino 和一根下载线的简单实验，让我们的Arduino 说出“Hello World！”，这是一个让Arduino 和PC 机通信的实验，这也是一个入门试验，希望可以带领大家进入Arduino 的世界。</p>
+<h3 id="实验用到的电子原件，及电子模块："><a href="#实验用到的电子原件，及电子模块：" class="headerlink" title="实验用到的电子原件，及电子模块："></a>实验用到的电子原件，及电子模块：</h3><p>1.Arduino板 1个<br>2.USB 数据线</p>
+<p>我们按照上面所讲的将Arduino 的驱动安装好后，我们打开Arduino 的软件，编写一段程序让Arduino 接受到我们发的指令就显示“Hello World！”字符串，当然您也可以让Arduino 不用接受任何指令就直接不断回显“Hello World！”，其实很简单，一条<br>if（）语句就可以让你的Arduino 听从你的指令了，我们再借用一下Arduino 自带的数字13 口LED，让Arduino 接受到指令时LED 闪烁一下，再显示“Hello World！”</p>
+<h3 id="参考程序"><a href="#参考程序" class="headerlink" title="参考程序"></a>参考程序</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">int val;&#x2F;&#x2F;定义变量val</span><br><span class="line">int ledpin&#x3D;13;&#x2F;&#x2F;定义数字接口13</span><br><span class="line">void setup()</span><br><span class="line">&#123;</span><br><span class="line">  Serial.begin(9600);&#x2F;&#x2F;设置波特率为9600，这里要跟软件设置相一致。当接入特定设备（如：蓝牙）时，我们也要跟其他设备的波特率达到一致。</span><br><span class="line">  pinMode(ledpin,OUTPUT);&#x2F;&#x2F;设置数字13 口为输出接口，Arduino 上我们用到的I&#x2F;O 口都要进行类似这样的定义。</span><br><span class="line">&#125;</span><br><span class="line">void loop()</span><br><span class="line">&#123;</span><br><span class="line">  val&#x3D;Serial.read();&#x2F;&#x2F;读取PC 机发送给Arduino 的指令或字符，并将该指令或字符赋给val</span><br><span class="line">  if(val&#x3D;&#x3D;&#39;R&#39;)&#x2F;&#x2F;判断接收到的指令或字符是否是“R”。</span><br><span class="line">  &#123;  &#x2F;&#x2F;如果接收到的是“R”字符</span><br><span class="line">    digitalWrite(ledpin,HIGH);&#x2F;&#x2F;点亮数字13 口LED。</span><br><span class="line">    delay(500);</span><br><span class="line">    digitalWrite(ledpin,LOW);&#x2F;&#x2F;熄灭数字13 口LED</span><br><span class="line">    delay(500);</span><br><span class="line">    Serial.println(&quot;Hello World!&quot;);&#x2F;&#x2F;显示“Hello World！”字符串</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<p>点击 工具 下的 串口监视器<br>输入 R<br>LED灯会闪一下；<br>会收到来自Arduino的信息Hello World<br>实验结束。<br>注意事项：COM端口要选对，不然接收不到数据。</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/12/20/hello-world/" data-id="ck4dgcjqw0000k9j3545zd27y" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/07/30/%E8%AE%A9Arduino%E8%AF%B4%E5%87%BAHelloWorld/" data-id="ck4dgkwp9001r9dj3gq499ged" class="article-share-link">Share</a>
       
       
     </footer>
@@ -114,19 +111,19 @@
     
 <nav id="article-nav">
   
-    <a href="/2019/12/20/%E6%99%BA%E8%83%BD%E5%9B%AD%E8%89%BA%E5%AE%B6%E7%A8%8B%E5%BA%8F%E8%AE%B2%E8%A7%A3/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2019/07/31/%E9%93%B6%E6%B2%B3%E8%A1%A5%E4%B9%A0%E7%8F%AD%E4%B8%AD%E7%9A%84%E6%95%99%E8%82%B2%E7%97%9B%E7%82%B9/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Newer</strong>
       <div class="article-nav-title">
         
-          智能园艺家程序讲解
+          银河补习班中的教育痛点
         
       </div>
     </a>
   
   
-    <a href="/2019/10/17/%E7%A8%8B%E5%BA%8F/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2019/07/30/Inkscape%E5%BF%AB%E6%8D%B7%E9%94%AE/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">程序</div>
+      <div class="article-nav-title">Inkscape快捷键</div>
     </a>
   
 </nav>
